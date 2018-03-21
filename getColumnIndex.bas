@@ -1,4 +1,7 @@
 Attribute VB_Name = "getColumnIndex"
+
+'//function - pass sheet (as sheet) and column name (as string) and get back the column number, A=1, B=2, etc.
+
 Function getColumn(dsht As Worksheet, colName As String)
 
     numCols = dsht.UsedRange.Columns.Count
