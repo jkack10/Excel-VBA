@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module2"
+Attribute VB_Name = "getColumnIndex"
 Function getColumn(dsht As Worksheet, colName As String)
 
     numCols = dsht.UsedRange.Columns.Count
